@@ -3,14 +3,14 @@ import 'package:flutter/services.dart' show rootBundle;
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 import 'secrets.dart';
 
-class Map extends StatefulWidget {
-  const Map({Key? key}) : super(key: key);
+class World extends StatefulWidget {
+  const World({Key? key}) : super(key: key);
 
   @override
-  State<Map> createState() => _MapState();
+  State<World> createState() => _WorldState();
 }
 
-class _MapState extends State<Map> {
+class _WorldState extends State<World> {
   late final String mapStyle;
 
   @override
